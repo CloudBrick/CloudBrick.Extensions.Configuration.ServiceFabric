@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Version>2.1.0</Version>
+    <Authors>Mihai Dumitrascu</Authors>
+    <Company>CloudBrick</Company>
+    <Description>AspNetCore Configuration provider for Service Fabric</Description>
+    <Copyright>Copyright (c) 2018 CloudBrick</Copyright>
+    <PackageTags>aspnetcore;serviec fabric;configuration;providers</PackageTags>
+    <RepositoryUrl>https://github.com/CloudBrick/CloudBrick.Extensions.Configuration.ServiceFabric</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/CloudBrick/CloudBrick.Extensions.Configuration.ServiceFabric</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/CloudBrick/CloudBrick.Extensions.Configuration.ServiceFabric/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.2.176" />
+  </ItemGroup>
+</Project>
