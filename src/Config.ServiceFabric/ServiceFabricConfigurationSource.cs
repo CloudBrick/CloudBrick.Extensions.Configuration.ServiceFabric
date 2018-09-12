@@ -20,9 +20,6 @@ namespace CloudBrick.Extensions.Configuration.ServiceFabric
             _environmentName = environmentName;
         }
 
-        public IConfigurationProvider Build(IConfigurationBuilder builder)
-        {
-            return new ServiceFabricConfigurationProvider(_serviceContext,_environmentName);
-        }
+        public IConfigurationProvider Build(IConfigurationBuilder builder) => new ServiceFabricConfigurationProvider(_serviceContext, _environmentName);
     }
 }

@@ -14,10 +14,11 @@ namespace Microsoft.Extensions.Configuration.ServiceFabric
 {
     public static class ServiceFabricConfigurationExtensions
     {
-        public static IConfigurationBuilder AddServiceFabricSettings(this IConfigurationBuilder builder, ServiceContext serviceContext,IHostingEnvironment environment)
-        {
-           return builder.Add(new ServiceFabricConfigurationSource(serviceContext,environment.EnvironmentName));            
-        }
+        public static IConfigurationBuilder AddServiceFabricSettings(
+            this IConfigurationBuilder builder, 
+            ServiceContext serviceContext, 
+            IHostingEnvironment environment)
+            => builder.Add(new ServiceFabricConfigurationSource(serviceContext, environment.EnvironmentName));
     }
 
 }
