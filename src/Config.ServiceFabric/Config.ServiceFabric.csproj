@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PlatformTarget>x64</PlatformTarget>
-    <Version>2.1.0</Version>
+    <Version>2.1.1</Version>
     <Authors>Mihai Dumitrascu</Authors>
     <Company>CloudBrick</Company>
     <Description>AspNetCore Configuration provider for Service Fabric</Description>
@@ -14,6 +14,10 @@
     <PackageLicenseUrl>https://github.com/CloudBrick/CloudBrick.Extensions.Configuration.ServiceFabric/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyName>CloudBrick.ServiceFabric.Configuration.ServiceFabric</AssemblyName>
+    <RootNamespace>CloudBrick.ServiceFabric.Configuration.ServiceFabric</RootNamespace>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
+    <FileVersion>2.1.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
