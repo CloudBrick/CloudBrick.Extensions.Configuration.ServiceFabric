@@ -1,4 +1,8 @@
-﻿using System;
+﻿// ------------------------------------------------------------
+//  Copyright (c) CloudBrick.  All rights reserved.
+//  Licensed under the MIT License (MIT). See License.txt in the repo root for license information.
+// ------------------------------------------------------------
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Fabric;

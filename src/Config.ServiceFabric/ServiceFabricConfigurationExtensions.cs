@@ -1,4 +1,8 @@
-﻿using CloudBrick.Extensions.Configuration.ServiceFabric;
+﻿// ------------------------------------------------------------
+//  Copyright (c) CloudBrick.  All rights reserved.
+//  Licensed under the MIT License (MIT). See License.txt in the repo root for license information.
+// ------------------------------------------------------------
+using CloudBrick.Extensions.Configuration.ServiceFabric;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System;
